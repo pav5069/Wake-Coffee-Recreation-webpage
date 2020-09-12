@@ -1,0 +1,148 @@
+
+
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.header {
+    grid-area: header;
+}
+.vidoe {
+    grid-area: video;
+}
+
+.footer {
+    grid-area: footer;
+    background:#1ABC9C;
+    min-height: 200px;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 50% 50%;
+    grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "video video video"
+    "footer  footer  footer";
+    background-color: #fff;
+    color: #444;
+}
+
+
+.box {
+color: black;
+border-radius: 5px;
+padding: 10px;
+font-size: 150%;
+}
+
+.header{
+    background-color: #fff;
+    place-self: center stretch;
+}
+
+#header {
+    position: fixed; 
+    top: 0px;
+    min-height: 76px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #FFF;
+}
+
+@media only screen and (max-width: 600px) {
+    #header {
+      flex-direction: column;
+    min-height: 10px; }
+  }
+
+  nav ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 3px;
+    margin-right: 50px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+  }
+  
+  nav a:hover {
+    color:#C95C5C;
+  }
+
+
+  #vidoe {
+    justify-content: center;
+    align-items: center;
+  }
+
+#dropdown{
+    background-color: #F5F5F5;
+    height: 30px;
+}
+
+#dropdown-2 {
+    background-color: #F5F5F5;
+    height: 30px;
+}
+
+#number{
+    background-color: #F5F5F5;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+}
+#submit-1 {
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;  
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+}
+
+
+
+  #contact {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 3px;
+    margin-right: 50px;
+    color:#FFF;
+  }
+
+#newsletter {
+    color:#fff;
+    text-align: center;
+}

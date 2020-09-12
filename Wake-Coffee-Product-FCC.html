@@ -1,0 +1,91 @@
+<link rel="stylesheet" href="Wake-Coffee_FCC.css">
+
+<!DOCTYPE html>
+<html>
+    <body>
+    <div class="wrapper">
+                     <!--Header-->
+        <div class="box header">
+            <div id="header">
+                <img id="header-img" src="https://images.squarespace-cdn.com/content/5bad4eaaaadd3477cf4e8e55/1577647887680-PBM2B4I3FLOW8A3H3FNO/Wake_Logo.png?format=1500w&content-type=image%2Fpng" 
+                alt="Wake Logo" height="80px" width="110px">
+            <nav id="nav-bar">
+                <ul>
+                  <a href="#description" class="nav-link">Description</a>
+                  <a href="#video" class="nav-link">Video</a>
+                  <a href="#contact" class="nav-link">Contact</a>     
+                </ul>
+                </nav>
+            </div>        
+        </div>
+
+
+                    <!--content-->
+                <div class="box sidebar"> 
+            <h3 id="description">LIMITED RUN: ETHIOPIA SIDAMO</h3>
+            <ul>
+    <p><b>Roast:</b><br> Light-roast</p>
+    <p><b>Tasting Notes:</b><br> Late spring notes of lemon zest, berries, topped with cane sugar</p>
+                    <!--Type Dropdown-->
+            <select id="dropdown" required>
+                <option value="select-value">Select Value </option>
+                <option value="whole-beans">Whole Bean</option>
+                <option value="drip">Drip</option>
+            </select>     
+            <select id="dropdown-2" required>
+                <option value="select-size">Select size </option>
+                <option value="12-oz">12 OZ</option>
+                <option value="2lb">2LB</option>
+            </select>  
+            <br>  
+            <br>
+    <input  type="number"  name="ammount"  id="number" class="input-field"
+    min="1"  max="99"   placeholder="Amount"
+    required/>
+    <br>
+    <br>
+            <form id="submit">
+                <input id= "submit-1" type="submit" value="Checkout">
+            </form>
+            </ul>
+                </div>
+
+                    <!--coffe bag-->
+        <div class="box content">
+            <img id="coffee-bag"
+                src="https://images.squarespace-cdn.com/content/v1/5bad4eaaaadd3477cf4e8e55/1587570258576-OTWIFA87DWQ44XP9VZJ5/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0topjEaZcWjtmMYdCWL4dkGbxs35J-ZjFa9s1e3LsxrX8g4qcOj2k2AL08mW_Htcgg/Ethiopia+Sidamo+.png?format=2500w"
+                    alt="picture of a coffee bag" 
+                    height="85%" width="85%">
+        </div>
+
+
+                        <!--vidoe-->
+        <div class="box video"></div>
+        <iframe id="video" width="600" height="350" src="https://www.youtube.com/embed/GsrIZ1mnOvU" frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+        <div class="box footer">
+            <ul>
+            <div id="contact">
+<p id="location">
+    AMBLER <br> 133 S. Main S <br> Ambler, PA — 19002
+</p>
+<p id="hours">
+    Tuesday - Sunday: 8am - 3pm
+</p>
+</div>
+</ul>
+<div id="newsletter">
+<label>To join our newsletter</label>
+<form action="https://www.freecodecamp.com/email-submit" id="form">
+    <input type="email" name="email" class="input-feild" id="email" placeholder="Enter your email"> 
+    <input type="submit" class="submit" id="submit" value="Submit">
+</form>
+            </div>
+        </div>
+      </div>
+      
+      
+      </body>
+</html>
